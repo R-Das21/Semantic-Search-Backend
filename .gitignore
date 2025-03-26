@@ -1,0 +1,11 @@
+# Ignore large data files if they're too big
+paper_embeddings.npy
+papers.csv
+
+# Python specifics
+__pycache__/
+*.pyc
+.env
+
+# Virtual environment
+venv/
