@@ -18,7 +18,7 @@ CORS(app, resources={
     r"/api/*": {
         "origins": [
             "http://localhost:3000",  # Local React development
-            "https://67e3a4a1ff4287c49d5ed421--golden-heliotrope-2f413e.netlify.app/",  # Your production frontend URL
+            "https://fastidious-chaja-d056a8.netlify.app/",  # Your production frontend URL
             "*"  # Be cautious with this - only use during initial testing
         ]
     }
